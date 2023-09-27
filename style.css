@@ -65,7 +65,7 @@ body{
     right: 15px;
 }
 
-span{
+span {
     color: grey;
 }
 .yt{
@@ -120,6 +120,7 @@ span{
 
 
 .line1 input{
+    background-color: rgb(24, 24, 24);
     text-indent: 10px;
     font-size: 18px;
     width: 500px;
@@ -137,4 +138,54 @@ span{
     position: relative;
     bottom: 920px;
     left: 1050px;
+}
+
+.voice{
+    width: 35px;
+    position: relative;
+    bottom: 925px;
+    left: 1080px;
+}
+
+.create1{
+    position: relative;
+    bottom:960px;
+    left: 1320px;
+
+}
+
+.createna{
+    position: relative;
+    bottom: 960px;
+    left: 1370px;
+}
+
+.moreop{
+    position: relative;
+    bottom: 960px;
+    left: 1350px;
+}
+
+.photo{
+    width: 35px;
+    position: relative;
+    bottom: 955px;
+    left: 1390px;
+}
+
+.mainnav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.mainnav li{
+    display: flex;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 940px;
+    left: 500px;
+    border-radius: 5px;
 }
