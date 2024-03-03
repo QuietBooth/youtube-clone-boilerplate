@@ -1,101 +1,251 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Youtube Clone</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
+    <div class="sidebar">
+        <div class="sidebar1">
+            <img id="hambarger" src="./assets/hambarger.png" alt="">
+            <img src="./assets/youtube_logo.svg" alt="">
+        </div>
+        <!-- <div class="sub-sidebar" id="sidebar2">
+            <img src="./assets/home.png" alt="">
+            <span>Home</span>
+            <img src="./assets/explore.png" alt="">
+            <span>Explores</span>
+            <img src="./assets/shorts.png" alt="">
+            <span>Shorts</span>
+            <img src="./assets/subscription.png" alt="">
+            <span>Subscriptions</span>
+        </div> -->
 
+        <div class="bugbar-family">
+            <div class="bugbar" id="bgcolor"><img src="./assets/home.png" alt=""><p class="bugtext">Home</p></div>
+            <div class="bugbar"><img src="./assets/explore.png" alt=""><p class="bugtext">Explore</p></div>
+            <div class="bugbar"><img src="./assets/shorts.png" alt=""><p class="bugtext">Shorts</p></div>
+            <div class="bugbar"><img src="./assets/subscription.png" alt=""><p class="bugtext">Subscription</p></div>
+        </div>
 
-
-
-<div id="main">
-    <div id="sidebar">
-        <div id="section1">
-            <img src="assets/hambarger.png" alt="ham" id="ham" class="invert">
-            <img src="assets/Youtube logo.png" alt="logo" id="logo" id="whitelogo">
-            <div id="s1home"><img src="assets/home.png" alt="home" class="invert"><div id="s1text">Home</div></div>
-            <div id="s1icons"><img src="assets/explore.png" alt="explore" class="invert"><div id="s1text">Explore</div></div>
-            <div id="s1icons"><img src="assets/shorts.png" alt="shorts" class="invert"><div id="s1text">Shorts</div></div>
-            <div id="s1icons"><img src="assets/subscription.png" alt="subs" class="invert"><div id="s1text">Subscriptions</div></div>
+        <div class="sub-sidebar" id="sidebar3">
+            <img src="./assets/library.png" alt="">
+            <span>Library</span>
+            <img src="./assets/history.png" alt="">
+            <span>History</span>
+            <img src="./assets/your_video.png" alt="">
+            <span>Your videos</span>
+            <img src="./assets/watch_later.png" alt="">
+            <span>Watch later</span>
+            <img src="./assets/liked.png" alt="">
+            <span>Liked videos</span>
+            <img src="./assets/down_arrow.png" alt="">
+            <span>Show more</span>
         </div>
-        <hr id="sections">
-        <div id="section2">
-            <div id="s1icons"><img src="assets/library.png" alt="library" class="invert"><div id="s1text">Library</div></div>
-            <div id="s1icons"><img src="assets/history.png" alt="history" class="invert"><div id="s1text">History</div></div>
-            <div id="s1icons"><img src="assets/history.png" alt="your" class="invert"><div id="s1text">Your Videos</div></div>
-            <div id="s1icons"><img src="assets/watch_later.png" alt="watch" class="invert"><div id="s1text">Watch Later</div></div>
-            <div id="s1icons"><img src="assets/liked.png" alt="liked" class="invert"><div id="s1text">Liked Videos</div></div>
-            <div id="s1icons"><img src="assets/down_arrow.png" alt="showmore" class="invert"><div id="s1text">Show more</div></div>
-        </div>
-        <hr id="sections">
-        <div id="section3">
-            <p>SUBSCRIPTIONS</p>
-            <div id="s1icons"><img src="assets/Ellipse 1-5.png" alt="history"><div id="s1text">Nadir On The Go <span class="dot1"></span></div></div>
-            <div id="s1icons"><img src="assets/Ellipse 1-6.png" alt="history"><div id="s1text">Coke Studio Bangla <span class="dot2"></span></div></div>
-            <div id="s1icons"><img src="assets/Ellipse 1.png" alt="history"><div id="s1text">MKBHD</div></div>
-            <div id="s1icons"><img src="assets/Ellipse 1-1.png" alt="history"><div id="s1text">Figma <span class="dot"></span></div></div>
-            <div id="s1icons"><img src="assets/Ellipse 1-2.png" alt="history"><div id="s1text">ATC Android ToTo C...</div></div>
-            <div id="s1icons"><img src="assets/Ellipse 1-3.png" alt="history"><div id="s1text">Alux.com <span class="dot3"></span></div></div>
-        </div>
-    </div>
-    <div id="videomain">
-        <div id="mains1">
-            <div id="searchmain">
-                <input type="text" placeholder="   Search">
-                <div id="searchbtn"><img src="assets/search.png" alt="" class="invert"></div>
-                <div id="voice"><img src="assets/voice-search 2.png" alt=""></div>
-            </div>
-            <div id="accountopts">
-                <div><img src="assets/create-1.png" alt="" class="invert"></div>
-                <div><img src="assets/more.png" alt="" class="invert"></div>
-                <div><img src="assets/create.png" alt="" class="invert"></div>
-                <div><img src="assets/Ellipse 4.png" alt=""></div>
-            </div>
-        </div>
-        <hr id="aftermains1">
-        <div id="mains2">
-            <div id="mains2btn" class="all" style="background-color: white; color: black;">All</div>
-            <div id="mains2btn" class="coke">Coke Studio</div>
-            <div id="mains2btn" class="ux">UX</div>
-            <div id="mains2btn" class="case">Case Study</div>
-            <div id="mains2btn" class="music">Music</div>
-            <div id="mains2btn" class="lofi">Bnagla Lofi</div>
-            <div id="mains2btn" class="tour">Tour</div>
-            <div id="mains2btn" class="sm">Saintmartin</div>
-            <div id="mains2btn" class="tech">Tech</div>
-            <div id="mains2btn" class="i13">iPhone 13</div>
-            <div id="mains2btn" class="ui">User Interface Design</div>
-            <div id="mains2btn" class="all">Cars</div>
-            <div id="mains2btn" class="all">Toys</div>
-            <div id="mains2btn" class="all">Cars</div>
-            <div id="blackbtn"><p>></p></div>
-        </div>
-        
-        <hr id="aftermains1">
-        <div id="mains3">
-            <div id="r1">
-                <div id="fullvid"><img id="thumb" src="assets/Thumbnail-8.png" alt=""><div id="viddes"><img src="assets/assets/Ellipse 4-6.png" alt=""><div id="viddestext">Bulbuli | Coke Studio Bangla | <br> Season One | Ritu Raj x Nandita</div></div><div id="channeldetails">Coke Studio Bangla <img src="assets/assets/verified 2.png" alt=""><br>1.5Mviews &middot; 2 days ago</div></div>
-                <div id="fullvid"><img id="thumb" src="assets/Thumbnail-9.png" alt=""><div id="viddes"><img src="assets/Ellipse 4-7.png" alt=""><div id="viddestext">Infinix Note 12: <br> AMOLED &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Helio G88 SoC!</div></div><div id="channeldetails">ATC Android ToTo Company <img src="assets/assets/verified 2.png" alt=""><br>42Mviews &middot; 2 days ago</div></div>
-                <div id="fullvid"><img id="thumb" src="assets/Thumbnail-10.png" alt=""><div id="viddes"><img src="assets/Ellipse 4-8.png" alt=""><div id="viddestext">My first UX Design Case Study - <br> This got me my first job.</div></div><div id="channeldetails">Saptarshi Prakash <img src="assets/assets/verified 2.png" alt=""><br>4.8Kviews &middot; 1 years ago</div></div>
-                <div id="fullvid"><img id="thumb" src="assets/Thumbnail-11.png" alt=""><div id="viddes"><div id="viddestext" class="extra">My Mix</div></div><div id="channeldetails" class="extra1">Lopandmudra Mitra, Anupam Roy, and more</div><div id="trans"><img src="" alt=""></div></div>
-            </div>
-            <div id="r2">
-                <div id="fullvid"><img id="thumb" src="assets/Thumbnail-4.png" alt=""><div id="viddes"><img src="assets/Ellipse 4-3.png" alt=""><div id="viddestext">UX Design - What is it? From AJ <br> & Smart</div></div><div id="channeldetails">AJ&Smar <img src="assets/verified 2.png" alt=""><br>150Kviews &middot; 3 years ago</div></div>
-                <div id="fullvid"><img id="thumb" src="assets/Thumbnail-5.png" alt=""><div id="viddes"><img src="Ellipse 4-.png" alt=""><div id="viddestext" class="extra">Mix - Mombati | Mohon Sharif | Dhakaaiya <br> Dose | Mahib Ahsan ft Anika</div></div><div id="channeldetails" class="extra1">Mohon Sharif, Odd Signature, Shayan <br> Chaudhary Arnob and more</div></div>
-                <div id="fullvid"><img id="thumb" src="assets/Thumbnail-6.png" alt=""><div id="viddes"><img src="assets/Ellipse 4-4.png" alt=""><div id="viddestext">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <br> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| 48 Visa Free</div></div><div id="channeldetails">Nadir On The Go <img src="assets/verified 2.png" alt=""><br>1.7Mviews &middot; 1 years ago</div></div>
-                <div id="fullvid"><img id="thumb" src="assets/Thumbnail-7.png" alt=""><div id="viddes"><img src="assets/Ellipse 4-5.png" alt=""><div id="viddestext">14 Advanced Tips to Design <br> FASTER in Figma</div></div><div id="channeldetails">Mizko <img src="assets/verified 2.png" alt=""><br>53Kviews &middot; 1 years ago</div></div>
-            </div>
-            <div id="r3">
-                <div id="fullvid"><img id="thumb" src="assets/Thumbnail.png" alt=""><div id="viddes"><img src="assets/Ellipse 4-6.png" alt=""><div id="viddestext">Bulbuli | Coke Studio Bangla | <br> Season One | Ritu Raj x Nandita</div></div><div id="channeldetails">Coke Studio Bangla <img src="assets/verified 2.png" alt=""><br>1.5Mviews &middot; 2 days ago</div></div>
-                <div id="fullvid"><img id="thumb" src="assets/Thumbnail-1.png" alt=""><div id="viddes"><img src="assets/Ellipse 4-6.png" alt=""><div id="viddestext">Bulbuli | Coke Studio Bangla | <br> Season One | Ritu Raj x Nandita</div></div><div id="channeldetails">Coke Studio Bangla <img src="assets/verified 2.png" alt=""><br>1.5Mviews &middot; 2 days ago</div></div>
-                <div id="fullvid"><img id="thumb" src="assets/Thumbnail-2.png" alt=""><div id="viddes"><img src="assets/Ellipse 4-6.png" alt=""><div id="viddestext">Bulbuli | Coke Studio Bangla | <br> Season One | Ritu Raj x Nandita</div></div><div id="channeldetails">Coke Studio Bangla <img src="assets/verified 2.png" alt=""><br>1.5Mviews &middot; 2 days ago</div></div>
-                <div id="fullvid"><img id="thumb" src="assets/Thumbnail-3.png" alt=""><div id="viddes"><img src="assets/Ellipse 4-6.png" alt=""><div id="viddestext">Bulbuli | Coke Studio Bangla | <br> Season One | Ritu Raj x Nandita</div></div><div id="channeldetails">Coke Studio Bangla <img src="assets/verified 2.png" alt=""><br>1.5Mviews &middot; 2 days ago</div></div>
+        <div class="sub-sidebar" id="sidebar4">
+            <span><b>SUBSCRIPTIONS</b></span>
+            <div class="sidebar4-2">
+                <img src="./assets/Ellipse 1-5.png" alt="">
+                <p>Nadir On The Go</p>
+                <div id="blue"></div>
+                <img src="./assets/Ellipse 1-6.png" alt="">
+                <p>Coke Studio Bangla</p>
+                <div id="blue"></div>
+                <img src="./assets/Ellipse 1.png" alt="">
+                <p>MKBHD</p>
+                <div id="blue##"></div>
+                <img src="./assets/Ellipse 1-1.png" alt="">
+                <p>Figma</p>
+                <div id="blue"></div>
+                <img src="./assets/Ellipse 1-2.png" alt="">
+                <p>ATC Android ToTo C...</p>
+                <div id="blue##"></div>
+                <img src="./assets/Ellipse 1-3.png" alt="">
+                <p>Alux.com</p>
+                <div id="blue"></div>
             </div>
         </div>
     </div>
-</div>
+    <div class="main-bar">
+         <div id="main-bar1">
+            <div></div>
+            <div id="main-bar1-1">
+                <div>
+                    <p>Search</p>
+                    <input id="input" type="text">
+                    <span><img src="./assets/search.png" alt=""></span>
+                </div>
+                <img id="mike" src="./assets/voice-search.png" alt="">
+            </div>
+            <div></div>
+            <div id="main-bar1-2">
+                <img src="./assets/create-1.png" alt="">
+                <img src="./assets/more.png" alt="">
+                <img src="./assets/create.png" alt="">
+                <img id="account"
+                    src="https://i.pinimg.com/736x/b7/76/1c/b7761c30f98e12c203879f551f1a615a.jpg"
+                    alt="">
+            </div>
+        </div>
+        <div class="main-bar1-mob">
+            <div class="youtube-logo">
+                <img class="filter-icon" src="./assets/hambarger.png" alt="">
+                <img src="./assets/youtube_logo.svg" alt="">
+            </div>
+            <div class="account-logo">
+                <img class="filter-icon" src="./assets/search.png" alt="">
+                <img src="https://i.pinimg.com/736x/b7/76/1c/b7761c30f98e12c203879f551f1a615a.jpg" alt="">
+            </div>
+        </div>
+        <div id="main-bar2">
+            <div class="buttons">All</div>
+            <div class="buttons">Coke Studio</div>
+            <div class="buttons">UX</div>
+            <div class="buttons">Case Study</div>
+            <div class="buttons">Music</div>
+            <div class="buttons">Bangla Lofi</div>
+            <div class="buttons">Tour</div>
+            <div class="buttons">Saintmartin</div>
+            <div class="buttons">Tech</div>
+            <div class="buttons">iPhone 13</div>
+            <div class="buttons">User Interface Design</div>
+            <div class="buttons">Computer</div>
+            <div class="arrow"><img src="./assets/down_arrow.png" alt=""></div>
+        </div>
+        <div id="main-bar3">
+            <div class="thumbnails" id="one">
+                <div class="image"><img src="./assets/Thumbnail-8.png" alt=""></div>
+                <div class="text">
+                    <div class="description">
+                        <div class="channel-logo"><img src="./assets/Ellipse 4-6.png" alt=""></div>
+                        <div class="channel-description"><p>Bulbuli | Coke Studio Bangla | <br> Season One | Ritu Raj X Nandita</p></div>
+                    </div>
+                    <div class="updates1"><p>Coke Studio Bangla</p><img class="verify"  src="./assets/verified 2.png" alt=""></div>
+                    <div class="updates2"><p>1.5Mviews • 2 days ago</p></div>
+                </div>      
+            </div>
+            <div class="thumbnails">
+                <div class="image"><img src="./assets/Thumbnail-9.png" alt=""></div>
+                <div class="text">
+                    <div class="description">
+                        <div class="channel-logo"><img src="./assets/Ellipse 4-7.png" alt=""></div>
+                        <div class="channel-description" id="bug1"><p>Infinix Note 12: <br> AMOLED Helio G88 SoC!</p></div>
+                    </div>
+                    <div class="updates1"><p>ATC Android ToTo Company</p><img class="verify" src="./assets/verified 2.png" alt=""></div>
+                    <div class="updates2"><p>4.2Mviews • 2 days ago</p></div>
+                </div>   
+            </div>
+            <div class="thumbnails">
+                <div class="image"><img src="./assets/Thumbnail-10.png" alt=""></div>
+                <div class="text">
+                    <div class="description">
+                        <div class="channel-logo"><img src="./assets/Ellipse 4-8.png" alt=""></div>
+                        <div class="channel-description" id="bug1"><p>My first UX Design case study- <br> This got me my first job.</p></div>
+                    </div>
+                    <div class="updates1"><p>Saptarshi Prakash</p></div>
+                    <div class="updates2"><p>4.8Kviews • 1 years ago</p></div>
+                </div>
+            </div>
+            <div class="thumbnails"><div class="image"><img src="./assets/Thumbnail-11.png" alt=""></div>
+            <div class="text">
+                <div class="description">
+                    <!-- <div class="channel-logo"><img src="./assets/Ellipse 4-8.png" alt=""></div> -->
+                    <div class="channel-description" id="bug2"><p>My Mix</p></div>
+                </div>
+                <div class="updates1" id="bug3"><p>Lopamudra Mitra, Anupam roy and more</p></div>
+                <!-- <div class="updates2"><p>4.8Kviews • 1 years ago</p></div> -->
+            </div></div>
+            <div class="thumbnails">
+                <div class="image"><img src="./assets/Thumbnail-4.png" alt=""></div>
+                <div class="text">
+                    <div class="description">
+                        <div class="channel-logo"><img src="./assets/Ellipse 4-3.png" alt=""></div>
+                        <div class="channel-description" id="bug1"><p>UX Design-What is it?(From AJ <br> &Smart)</p></div>
+                    </div>
+                    <div class="updates1"><p>AJ&Smar</p><img class="verify" src="./assets/verified 2.png" alt=""></div>
+                    <div class="updates2"><p>150KMviews • 3 years ago</p></div>
+                </div>
+            </div>
+            <div class="thumbnails">
+                <div class="image"><img src="./assets/Thumbnail-5.png" alt=""></div>
+                <div class="text">
+                    <div class="description">
+                        <!-- <div class="channel-logo"><img src="./assets/Ellipse 4-8.png" alt=""></div> -->
+                        <div class="channel-description" id="bug4"><p>My first UX Design case study- <br> This got me my first job.</p></div>
+                    </div>
+                    <div class="updates1" id="bug5"><p>Mohon Sharif, Odd Signature, Shayan <br> Chowdhury Arnob, and more</p></div>
+                    <!-- <div class="updates2"><p>4.8Kviews • 1 years ago</p></div> -->
+                </div>
+            </div>
+            <div class="thumbnails">
+                <div class="image"><img src="./assets/Thumbnail-6.png" alt=""></div>
+                <div class="text">
+                    <div class="description">
+                        <div class="channel-logo"><img src="./assets/Ellipse 4-4.png" alt=""></div>
+                        <div class="channel-description" id="bug1"><p>48 VISA-FREE</p></div>
+                    </div>
+                    <div class="updates1"><p>Nadir On The Go</p></div>
+                    <div class="updates2"><p>1.7Mviews • 1 years ago</p></div>
+                </div>
+            </div>
+            <div class="thumbnails">
+                <div class="image"><img src="./assets/Thumbnail-7.png" alt=""></div>
+                <div class="text">
+                    <div class="description">
+                        <div class="channel-logo"><img src="./assets/Ellipse 4-5.png" alt=""></div>
+                        <div class="channel-description" id="bug1"><p>14 Advanced Tips to Design <br>FASTER in Figma</p></div>
+                    </div>
+                    <div class="updates1"><p>Mizko</p><img class="verify" src="./assets/verified 2.png" alt=""></div>
+                    <div class="updates2"><p>53Kviews • 1 years ago</p></div>
+                </div>
+            </div>
+            <div class="thumbnails"><div class="image"><img src="./assets/Thumbnail.png" alt=""></div>
+            <div class="text">
+                <div class="description">
+                    <div class="channel-logo"><img src="./assets/Ellipse 4-8.png" alt=""></div>
+                    <div class="channel-description" id="bug1"><p>My first UX Design case study- <br> This got me my first job.</p></div>
+                </div>
+                <div class="updates1"><p>Saptarshi Prakash</p><img class="verify" src="./assets/verified 2.png" alt=""></div>
+                <div class="updates2"><p>4.8Kviews • 1 years ago</p></div>
+            </div></div>
+            <div class="thumbnails"><div class="image"><img src="./assets/Thumbnail-1.png" alt=""></div>
+            <div class="text">
+                <div class="description">
+                    <div class="channel-logo"><img src="./assets/Ellipse 4-8.png" alt=""></div>
+                    <div class="channel-description" id="bug1"><p>My first UX Design case study- <br> This got me my first job.</p></div>
+                </div>
+                <div class="updates1"><p>Saptarshi Prakash</p><img class="verify" src="./assets/verified 2.png" alt=""></div>
+                <div class="updates2"><p>4.8Kviews • 1 years ago</p></div>
+            </div></div>
+            <div class="thumbnails"><div class="image"><img src="./assets/Thumbnail-2.png" alt=""></div>
+            <div class="text">
+                <div class="description">
+                    <div class="channel-logo"><img src="./assets/Ellipse 4-8.png" alt=""></div>
+                    <div class="channel-description" id="bug1"><p>My first UX Design case study- <br> This got me my first job.</p></div>
+                </div>
+                <div class="updates1"><p>Saptarshi Prakash</p><img class="verify" src="./assets/verified 2.png" alt=""></div>
+                <div class="updates2"><p>4.8Kviews • 1 years ago</p></div>
+            </div></div>
+            <div class="thumbnails">
+                <div class="image"><img src="./assets/Thumbnail-3.png" alt=""></div>
+                <div class="text">
+                    <div class="description">
+                        <div class="channel-logo"><img src="./assets/Ellipse 4-8.png" alt=""></div>
+                        <div class="channel-description" id="bug1"><p>My first UX Design case study- <br> This got me my first job.</p></div>
+                    </div>
+                    <div class="updates1"><p>Saptarshi Prakash</p><img class="verify" src="./assets/verified 2.png" alt=""></div>
+                    <div class="updates2"><p>4.8Kviews • 1 years ago</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
